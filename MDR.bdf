@@ -21,7 +21,7 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 24 312 200 328)
+	(rect 48 312 224 328)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "CLOCK" (rect 9 0 46 12)(font "Arial" ))
 	(pt 176 8)
@@ -539,15 +539,15 @@ applicable agreement for further details.
 	(pt 280 320)
 )
 (connector
-	(pt 200 320)
-	(pt 232 320)
-)
-(connector
 	(pt 504 304)
 	(pt 624 304)
 )
 (connector
 	(pt 608 352)
 	(pt 624 352)
+)
+(connector
+	(pt 232 320)
+	(pt 224 320)
 )
 (junction (pt 360 296))
